@@ -1,0 +1,85 @@
+
+<h1>Fruits</h1>
+<!--Washington Apple-->
+
+<div class = "fruits">
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../assets/images/apple.jpg" alt="Avatar" style="width:300px;height:300px;">    
+    </div>
+    <div class="flip-card-back">
+        <a href = "#apple" [routerLink] = "['/delivery']"><h1>Name: Washington Apple</h1></a>
+      <p>Washington Apples are a rich source of calcium and antioxidants that help build a stronger immune system.</p> 
+      <p>Price: 170 per kg</p> 
+     Quantity: <input type = "radio" name = "apple" value = "1kg">1kg
+      <input type = "radio" name = "apple" value = "2kg">2kg
+      <input type = "radio" name = "apple" value = "3kg">3kg
+      <p>Shop Rating!!! {{shopRating1}}
+        <rating[rating] = 'shopRating1'
+        (ratingClick) = 'onRatingClicked($event)'></rating>
+      </p>
+    </div>
+  </div>
+</div>
+<br>
+
+<!--Orange-->
+<div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="../assets/images/orange.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+              <a href = "#apple" [routerLink] = "['/delivery']"><h1>Name: Nagpur Orange</h1></a>
+            <p> Orange is enriched with vitamin C and flavonoids.</p> 
+            <p>Price: 70 per kg</p> 
+            Quantity: <input type = "radio" name = "orange" value = "1kg">1kg
+      <input type = "radio" name = "orange" value = "2kg">2kg
+      <input type = "radio" name = "orange" value = "3kg">3kg
+            <p>Shop Rating!!! {{shopRating2}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1>Vegetable</h1>
+
+<!--Carrot -->
+<div class = "vegetable">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../assets/images/carrot.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+        <a href = "#apple" [routerLink] = "['/delivery']"><h1>Name: Carrot </h1></a>
+      <p>Carrot has ample amount of beta-carotene, antioxidants and dietary fibres. It is beneficial for healthy skin and eyes.</p> 
+      Quantity: <input type = "radio" name = "carrot" value = "1kg">1kg
+      <input type = "radio" name = "carrot" value = "2kg">2kg
+      <input type = "radio" name = "carrot" value = "3kg">3kg
+      <p>Price: 50 per kg</p> 
+      <p>Shop Rating!!! {{shopRating3}}</p>
+    </div>
+  </div>
+</div>
+
+<!--Potato -->
+<div class = "vegetable">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="../assets/images/potato.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+            <a href = "#apple" [routerLink] = "['/delivery']"><h1>Name: Potato </h1></a>
+          <p>Potato is a good source of fibre, vitamins and minerals.</p> 
+          <p>Price: 25 per kg</p> 
+          Quantity: <input type = "radio" name = "potato" value = "1kg">1kg
+      <input type = "radio" name = "potato" value = "2kg">2kg
+      <input type = "radio" name = "potato" value = "3kg">3kg
+          <p>Shop Rating!!! {{shopRating4}}</p>
+        </div>
+      </div>
+    </div>
